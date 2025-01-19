@@ -1,6 +1,6 @@
 ﻿namespace menulist
 {
-    partial class Form1
+    partial class Menu
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,7 +30,6 @@
         {
             btnback2 = new Button();
             numorder = new NumericUpDown();
-            btnPlaceOrder = new Button();
             btnVerify = new Button();
             ((System.ComponentModel.ISupportInitialize)numorder).BeginInit();
             SuspendLayout();
@@ -48,44 +47,33 @@
             // 
             // numorder
             // 
-            numorder.Location = new Point(368, 423);
+            numorder.Location = new Point(358, 421);
             numorder.Name = "numorder";
             numorder.Size = new Size(132, 23);
             numorder.TabIndex = 1;
             numorder.TextAlign = HorizontalAlignment.Center;
             // 
-            // btnPlaceOrder
-            // 
-            btnPlaceOrder.BackColor = Color.Lime;
-            btnPlaceOrder.Font = new Font("Arial Narrow", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnPlaceOrder.Location = new Point(757, 476);
-            btnPlaceOrder.Name = "btnPlaceOrder";
-            btnPlaceOrder.Size = new Size(117, 42);
-            btnPlaceOrder.TabIndex = 2;
-            btnPlaceOrder.Text = "Place Order";
-            btnPlaceOrder.UseVisualStyleBackColor = false;
-            // 
             // btnVerify
             // 
             btnVerify.BackColor = Color.Yellow;
-            btnVerify.Location = new Point(368, 476);
+            btnVerify.Location = new Point(785, 477);
             btnVerify.Name = "btnVerify";
             btnVerify.Size = new Size(120, 42);
             btnVerify.TabIndex = 3;
             btnVerify.Text = "Verify Order";
             btnVerify.UseVisualStyleBackColor = false;
             // 
-            // Form1
+            // Menu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(942, 548);
             Controls.Add(btnVerify);
-            Controls.Add(btnPlaceOrder);
             Controls.Add(numorder);
             Controls.Add(btnback2);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "Menu";
+            Text = "Menu List";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)numorder).EndInit();
             ResumeLayout(false);
         }
@@ -94,7 +82,6 @@
 
         private Button btnback2;
         private NumericUpDown numorder;
-        private Button btnPlaceOrder;
         private Button btnVerify;
     }
 }

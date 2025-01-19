@@ -39,7 +39,7 @@
             // btnMenu
             // 
             btnMenu.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnMenu.Location = new Point(145, 107);
+            btnMenu.Location = new Point(128, 137);
             btnMenu.Name = "btnMenu";
             btnMenu.Size = new Size(136, 63);
             btnMenu.TabIndex = 0;
@@ -49,7 +49,7 @@
             // btnCost
             // 
             btnCost.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCost.Location = new Point(459, 107);
+            btnCost.Location = new Point(480, 137);
             btnCost.Name = "btnCost";
             btnCost.Size = new Size(136, 63);
             btnCost.TabIndex = 1;
@@ -59,7 +59,7 @@
             // btnOrder
             // 
             btnOrder.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnOrder.Location = new Point(145, 226);
+            btnOrder.Location = new Point(128, 303);
             btnOrder.Name = "btnOrder";
             btnOrder.Size = new Size(136, 63);
             btnOrder.TabIndex = 2;
@@ -69,7 +69,7 @@
             // btnInventory
             // 
             btnInventory.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnInventory.Location = new Point(459, 226);
+            btnInventory.Location = new Point(480, 303);
             btnInventory.Name = "btnInventory";
             btnInventory.Size = new Size(136, 63);
             btnInventory.TabIndex = 3;
@@ -80,11 +80,11 @@
             // 
             btnBack.BackColor = Color.Red;
             btnBack.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnBack.Location = new Point(46, 361);
+            btnBack.Location = new Point(706, 12);
             btnBack.Name = "btnBack";
-            btnBack.Size = new Size(81, 39);
+            btnBack.Size = new Size(82, 28);
             btnBack.TabIndex = 4;
-            btnBack.Text = "Back ";
+            btnBack.Text = "Log Out";
             btnBack.UseVisualStyleBackColor = false;
             // 
             // header

@@ -5,11 +5,15 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nielo", "nielo\nielo.csproj", "{1AF476C8-0A87-487E-971E-6DA1D7614C3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "login'", "login'\login'.csproj", "{FBF29D8D-C434-4A10-8300-6D8194E576C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "login'", "login'\login'.csproj", "{FBF29D8D-C434-4A10-8300-6D8194E576C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frmmanagement", "frmmanagement\frmmanagement.csproj", "{1CEC2571-AF35-42DF-AAE9-1B4E8C684377}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "frmmanagement", "frmmanagement\frmmanagement.csproj", "{1CEC2571-AF35-42DF-AAE9-1B4E8C684377}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "menulist", "menulist\menulist.csproj", "{313B64E0-369C-4A88-8384-64214CB449DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "menulist", "menulist\menulist.csproj", "{313B64E0-369C-4A88-8384-64214CB449DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order List", "Order List\Order List.csproj", "{33749A2D-1472-4C14-A7DA-B12DECE9FB84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{550F653D-B81C-42ED-B0AA-03CAFE38CE25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{313B64E0-369C-4A88-8384-64214CB449DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{313B64E0-369C-4A88-8384-64214CB449DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{313B64E0-369C-4A88-8384-64214CB449DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33749A2D-1472-4C14-A7DA-B12DECE9FB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33749A2D-1472-4C14-A7DA-B12DECE9FB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33749A2D-1472-4C14-A7DA-B12DECE9FB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33749A2D-1472-4C14-A7DA-B12DECE9FB84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550F653D-B81C-42ED-B0AA-03CAFE38CE25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550F653D-B81C-42ED-B0AA-03CAFE38CE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550F653D-B81C-42ED-B0AA-03CAFE38CE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550F653D-B81C-42ED-B0AA-03CAFE38CE25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
